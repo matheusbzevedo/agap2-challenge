@@ -32,7 +32,7 @@ export default function Details() {
     } else {
       navigate('/');
     }
-  }, []);
+  }, [navigate, params.id]);
 
   return (
     <>
